@@ -1,0 +1,14 @@
+============================================================
+         AVIATION PIPELINE — PHASE 1 SUMMARY
+============================================================
+Title                  : Phase 1 — Data Splitting & Analysis
+Execution Date         : 26-06-2026
+Execution Time         : 17:34:01
+Landing Zone Path      : hdfs:///user/hadoop/aviation/landing_zone
+Output HDFS Location   : hdfs:///user/hadoop/aviation/
+Flight Fact Count      : 2000000
+Airline Dim Count      : 18
+Airport Dim Count      : 380
+Delay Fact Count       : 2000000
+Overall Status         : SUCCESS
+============================================================

@@ -1,0 +1,12 @@
+USE aviation_dw;
+
+CREATE EXTERNAL TABLE IF NOT EXISTS delay_fact (
+    flight_id BIGINT,
+    delay_due_carrier DOUBLE,
+    delay_due_weather DOUBLE,
+    delay_due_nas DOUBLE,
+    delay_due_security DOUBLE,
+    delay_due_late_aircraft DOUBLE
+)
+STORED AS PARQUET
+LOCATION '/user/hive/warehouse/aviation/delay_fact';

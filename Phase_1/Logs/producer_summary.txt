@@ -1,0 +1,14 @@
+============================================================
+        AVIATION KAFKA PRODUCER SUMMARY
+============================================================
+Topic             : aviation_project
+CSV               : /home/talentum/Big_Data_Project_Work/Big_Data_Project/flights_sample_2m.csv
+Batch Size        : 1000
+Delay             : 2 Seconds
+Rows Published    : 2000000
+Messages Published: 2000
+Execution Time    : 4258.89 Seconds
+Start Time        : 26-06-2026 14:39:45
+End Time          : 26-06-2026 15:50:44
+Status            : COMPLETED
+============================================================

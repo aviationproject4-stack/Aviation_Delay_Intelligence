@@ -1,0 +1,10 @@
+USE aviation_dw;
+
+CREATE EXTERNAL TABLE IF NOT EXISTS airline_dim (
+    airline_code STRING,
+    airline STRING,
+    airline_dot STRING,
+    dot_code INT
+)
+STORED AS PARQUET
+LOCATION '/user/hive/warehouse/aviation/airline_dim';

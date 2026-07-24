@@ -1,0 +1,15 @@
+============================================================
+       AVIATION KAFKA CONSUMER SUMMARY
+============================================================
+Topic                  : aviation_project
+Landing Zone           : hdfs:///user/hadoop/aviation/landing_zone
+Checkpoint             : hdfs:///user/hadoop/aviation/checkpoint
+Trigger                : 5 seconds
+Micro Batches Processed: 853
+Rows Consumed          : 2000000
+Started At             : 26-06-2026 14:39:39
+Last Updated           : 26-06-2026 15:50:45
+Elapsed Time           : 4266.50 Seconds
+Current Batch Time     : 0.56 Seconds
+Status                 : ACTIVE
+============================================================

@@ -1,0 +1,61 @@
+============================================================
+          AVIATION BIG DATA PIPELINE
+           FINAL EXECUTION REPORT
+============================================================
+
+  Pipeline Overview
+
+    CSV
+     ↓
+    Kafka Producer
+     ↓
+    Kafka Topic
+     ↓
+    Spark Structured Streaming Consumer
+     ↓
+    Landing Zone (HDFS)
+     ↓
+    PySpark Transformations
+     ↓
+    Dimension Tables
+     ↓
+    Fact Tables
+
+============================================================
+  Producer Summary
+============================================================
+  Topic Name            : aviation_project
+  Batch Size            : 1000
+  Messages Published    : N/A
+  Rows Published        : 2000000
+  Execution Time        : 4258.89 Seconds
+
+============================================================
+  Consumer Summary
+============================================================
+  Landing Zone          : hdfs:///user/hadoop/aviation/landing_zone
+  Trigger Interval      : 5 seconds
+  Micro Batches         : N/A
+  Rows Consumed         : 2000000
+  Execution Time        : 4266.50 Seconds
+
+============================================================
+  Phase 1 Summary
+============================================================
+  Flight Fact Count     : 2000000
+  Airline Dim Count     : 18
+  Airport Dim Count     : 380
+  Delay Fact Count      : 2000000
+  Output HDFS Location  : hdfs:///user/hadoop/aviation/
+
+============================================================
+  Overall Project Status
+============================================================
+  SUCCESS
+
+============================================================
+  Report Generated At
+============================================================
+  Date                  : 26-06-2026
+  Time                  : 16:20:03
+============================================================
