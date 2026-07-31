@@ -1,8 +1,0 @@
-USE aviation_dw;
-
-CREATE EXTERNAL TABLE IF NOT EXISTS airport_dim (
-    airport_code STRING,
-    city STRING
-)
-STORED AS PARQUET
-LOCATION '/user/hive/warehouse/aviation/airport_dim';

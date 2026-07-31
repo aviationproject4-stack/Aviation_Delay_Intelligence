@@ -1,3 +1,0 @@
-CREATE DATABASE IF NOT EXISTS aviation_dw;
-
-USE aviation_dw;
